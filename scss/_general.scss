@@ -1,0 +1,68 @@
+@import "variables";
+
+*{margin: 0; padding: 0;}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+/*Formato de los h1 y h2*/
+h1{
+	color: $rosa; 
+	text-align: center;
+	font-size: 2rem;
+	font-style: italic;
+	margin-top: 50px;
+}
+h2{
+	color: $morado;
+	font-size: 1.5rem;
+	font-style: italic;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h4{
+	color: $morado;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*Formatos*/
+.padding {
+	padding:10px 20px 30px 40px;
+}
+.margin {
+	margin-top: 50px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	margin-left: 45px;
+}
+
+/*Color a la etiqueta p*/
+p{
+	color: $azul;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Pacifico' sans-serif;
+	text-align: center;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+/*Definimos los tamaños de las imágenes*/
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin-left: 20px;
+  margin-top: 10px;
+}
+

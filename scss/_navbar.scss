@@ -1,0 +1,47 @@
+@import "variables";
+
+header{
+	width: 100%;
+}
+@import "variables";
+
+/*Flex al header*/
+.heaNav{
+	display: flex;
+	align-items: flex-start;
+	z-index: 9999;
+}
+
+/*Contenedor*/
+.contenPadre{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-auto-rows: auto auto auto;
+	background-repeat: no-repeat; 
+  background-size: cover; 
+  background-image: url("../assets/image/fondopag.jpg");
+}
+
+/*Barra de navegación*/
+.navbar{
+	display: flex;
+	position: relative; 
+	align-items: flex-end;
+	margin-left: auto;
+	margin-top: 25px;
+	font-style: italic;
+}
+
+/*Formato listas*/
+ul{
+	list-style: none;
+	font-size: 0;
+}
+li {
+	display: inline-flex;
+	color: royalblue;
+	list-style: none;
+	font-size: 14px;
+	padding: 10px;
+}
+
